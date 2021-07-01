@@ -13,7 +13,10 @@
     height: calc(100vh - 80px);
 }
 .menu-l{
+    display: flex;
+     
     float: left;
+    flex-wrap: wrap;
     background-color: aqua;
     height: calc(100vh - 80px);
     width: 200px;
@@ -28,4 +31,35 @@ footer{
     width: 100%;
     height: 80px;
     background-color: burlywood;
+}
+/* fine blocchi */
+/* menù */
+.logo{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    width: 100%;
+    /* height: 50px; */
+    background-color: chartreuse;
+}
+#logo-s{
+    width: 50px;
+    height: auto;
+}
+.home{
+    width: 100%;
+    /* height: 50px; */
+    background-color: darkgoldenrod;
+}
+.playlist{
+    width: 200px;
+    /* height: 50px; */
+    background-color: red;
+}
+.bottom-menu{
+    display: flex;
+    width: 100%;
+    /* height: 50px; */
+    background-color: green;
+    flex-direction: column-reverse;
 }
