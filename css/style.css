@@ -89,9 +89,20 @@ footer{
     display: flex;
 }
 .footer-l{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     width: 20%;
     background-color: ivory;
 }
+#sinister{
+    width: 40px;
+    height: auto;
+}
+.canzone-riproduzione {
+    font-size: 15px;
+}
+/* fooooter centrale */
 .footer-c{
     width: 60%;
     height: 100%;
