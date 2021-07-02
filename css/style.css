@@ -2,11 +2,15 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 .clearfix{
     content: "";
     display: table;
     clear: both;
+}
+a{
+    text-decoration: none
 }
 .box{
     width: 100%;
@@ -49,6 +53,7 @@ footer{
 }
 
 .home{
+    
     width: 100%;
     /* height: 50px; */
     background-color: darkgoldenrod;
@@ -58,6 +63,7 @@ footer{
     /* height: 50px; */
     background-color: red;
     padding: 5px;
+    overflow:auto ;
 }
 .grosso{
     font-size: 25px;
@@ -69,8 +75,52 @@ footer{
     /* height: 50px; */
     background-color: green;
     flex-direction: column-reverse;
+    min-height: 50px;
 }
 li{
     display: flex;
     align-items: center;
 }
+#casa{
+    width: 50px;
+}
+/* footerr  */
+footer{
+    display: flex;
+}
+.footer-l{
+    width: 20%;
+    background-color: ivory;
+}
+.footer-c{
+    width: 60%;
+    background-color: lightcoral;
+}
+.footer-r{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    background-color: lightgreen;
+    height: 100%;
+}
+.linea{
+    width: 70px;
+    height: 3px;
+    background-color: lime;
+    
+}
+.linea-contenitore{
+    position: relative;
+    width: 70px;
+    height: 3px;
+}
+.linea-2{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 30px;
+    height: 3px;
+    background-color: navy;
+}
+
