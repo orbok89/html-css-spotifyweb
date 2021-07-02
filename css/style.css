@@ -94,8 +94,61 @@ footer{
 }
 .footer-c{
     width: 60%;
+    height: 100%;
     background-color: lightcoral;
 }
+.footer-upper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    background-color: orange;
+
+}
+.f1, .f2, .f3 {
+    margin: 5px;
+}
+.f1{
+    font-size: 70%;
+}
+.f3{
+    font-size: 120%;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 50%;
+    background-color: olive;
+    
+}
+
+.linea-b{
+    width: 100%;
+    height: 3px;
+    background-color: lime;
+    
+}
+.linea-contenitore-b{
+    position: relative;
+    width: 70%;
+    height: 3px;
+    margin: 5px;
+}
+.linea-2b{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 30%;
+    height: 3px;
+    background-color: navy;
+}
+
+
+/* foooter destro */
 .footer-r{
     display: flex;
     justify-content: space-around;
@@ -124,3 +177,4 @@ footer{
     background-color: navy;
 }
 
+/* fine foter destro */
