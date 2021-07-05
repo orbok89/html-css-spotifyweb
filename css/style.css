@@ -30,6 +30,7 @@ main{
     background-color: blueviolet;
     width: calc(100vw - 200px);
     height: calc(100vh - 80px);
+    overflow-y: auto;
 }
 footer{
     width: 100%;
@@ -60,7 +61,7 @@ footer{
 }
 .playlist{
     width: 200px;
-    /* height: 50px; */
+    height: calc(100% - 50px);
     background-color: red;
     padding: 5px;
     overflow:auto ;
@@ -69,13 +70,16 @@ footer{
     font-size: 25px;
     margin-right: 2px;
 }
+.lista-playlist{
+    overflow-y: auto;
+}
 .bottom-menu{
     display: flex;
     width: 100%;
     /* height: 50px; */
     background-color: green;
     flex-direction: column-reverse;
-    min-height: 50px;
+    height: 50px;
 }
 li{
     display: flex;
@@ -83,6 +87,14 @@ li{
 }
 #casa{
     width: 50px;
+}
+.profilo{
+    width: 20px;
+    background-color: slategrey;
+    border-radius: 50%;
+}
+.download{
+    width: 15px;
 }
 /* footerr  */
 footer{
@@ -189,3 +201,52 @@ footer{
 }
 
 /* fine foter destro */
+/* upgrade */
+.upgrade{
+    position: fixed;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: rgba(106, 142, 35, 0.248);
+    width: 100%;
+    height: 80px;
+    z-index: 2;
+}
+.upgrade-button{
+    border: 1px solid salmon;
+    z-index: 3;
+}
+.upgrade-finto{
+    
+    background-color: rgba(106, 142, 35, 0.248);
+    width: 100%;
+    height: 80px;
+}
+/* nAvigazione */
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* copertine */
+.album{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.copertina{
+    width: 15%;
+}
+.copertina-resize{
+    width: 100%;
+}
+.album2{
+    display: flex;
+    flex-wrap: nowrap;
+    
+    text-align: center;
+}
+.cerchio{
+    border-radius: 50%;
+}
