@@ -123,6 +123,7 @@ footer{
     justify-content: space-around;
     align-items: center;
     width: 20%;
+    min-width: 150px;
     background-color: rgba(40,40,40,255);
 }
 #sinister{
@@ -190,6 +191,16 @@ footer{
     height: 3px;
     background-color: navy;
 }
+.palla{
+    display: none;
+    position: absolute;
+    background-color: yellow;
+    width: 7px;
+    height: 7px;
+    top: -2px;
+    left: 30%;
+    border-radius: 50%;
+}
 
 
 /* foooter destro */
@@ -198,6 +209,7 @@ footer{
     justify-content: space-around;
     align-items: center;
     width: 20%;
+    min-width: 150px;
     background-color: rgba(40,40,40,255);
     height: 100%;
 }
@@ -261,7 +273,7 @@ nav{
 }
 .album{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
     margin: 15px;
@@ -308,7 +320,8 @@ h4, h2{
     color: white;
 }
 .big:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
+    color: tomato;
 }
 
 .velo{
@@ -332,4 +345,38 @@ h4, h2{
 }
 .scat{width: 20px;
     text-align: center;
+}
+.linea-2b:hover{
+    background-color: yellowgreen;
+}
+.linea-contenitore-b:hover .palla{
+    display: inline-block;
+}
+.linea-2:hover{
+    background-color: yellowgreen;
+}
+.linea-contenitore:hover .palla2{
+    display: inline-block;
+}
+.palla2{
+    display: none;
+    position: absolute;
+    background-color: yellow;
+    width: 7px;
+    height: 7px;
+    top: -2px;
+    left: 30px;
+    border-radius: 50%;
+}
+.menu-600px {
+    display: none;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.bottom-600px{
+    display: none;
+    flex-direction: column;
+    align-items: center;
 }

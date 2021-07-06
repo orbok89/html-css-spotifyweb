@@ -1,9 +1,36 @@
 @media all and (max-width: 600px) {
  .menu-l{
-     width: 30px;
+     width: 50px;
  }
  main{
 
-    width: calc(100vw - 30px);
+    width: calc(100vw - 50px);
 }
+.playlist{
+    display: none;
+}
+.bottom-menu{
+    display: none;
+}
+.menu-600px{
+    display:flex ;
+}
+.upgrade{
+    width: calc(100% - 50px);
+}
+.bottom-600px{
+    display: flex;
+}
+}
+@media all and (max-width: 1000px){
+    .copertina {
+        flex: space-between ;
+        width: 45%;
+
+    }
+}
+@media all and (max-height: 500px){
+    .upgrade{
+        display: none;
+    }
 }
