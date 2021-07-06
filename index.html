@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <link rel="stylesheet" href="css/style.css">
@@ -17,31 +17,26 @@
   <div class="box clearfix">
         <!-- menù -->
     <div class="menu-l">
-        <!-- logo -->
-       
-        <!-- fine logo -->
-        <!-- home -->
-        
-        <!-- fine home -->
-        <!-- playlist -->
         <div class="playlist">
-            <a href="#"><li> <img id="" src="img/logo.svg" alt="">  </li></a> 
-            
-           <ul>
-              <a href="#"><li> <img id="casa" src="img/home.svg" alt=""> Home </li></a> 
-              <a href="#"><li> <img id="casa" src="img/search.svg" alt=""> Cerca </li></a> 
-              <a href="#"><li> <img id="casa" src="img/libreria.svg" alt=""> La tua libreria </li></a> 
+            <a href="#"> <img class="margin-basso logo-resize" id="" src="img/logo.svg" alt="">  </a>  
+           <ul class="margin-basso"> 
+              <a class="grigio hov" href="#"><li> <img id="casa" class="grigio" src="img/home.svg" alt=""> Home </li></a> 
+              <a class="grigio hov" href="#"><li> <img id="casa" class="grigio" src="img/search.svg" alt=""> Cerca </li></a> 
+              <a class="grigio hov" href="#"><li> <img id="casa" class="grigio"  src="img/libreria.svg" alt=""> La tua libreria </li></a> 
            </ul>
             <h4>PLAYLIST</h4>
-            <ul class="lista-playlist">
-                <li>
+            <div class="aggiungi hov">
                   <span class="grosso">  <i class="fas fa-plus-square"></i>
                   </span><span>Crea playlist</span>
-                </li>
-                <li>Nome playlist</li>
-                <li>Nome playlist</li>
-                <li>Nome playlist</li>
-                <li>Nome playlist</li>
+            </div>
+            <ul class="lista-playlist">
+                
+                <div class="padding-p hov">Nuova playlist</div>
+                <div class="padding-p hov">Nuova playlist</div>
+                <div class="padding-p hov">Nuova playlist</div>
+                <div class="padding-p hov">Nuova playlist</div>
+                <div class="padding-p hov">Nuova playlist</div>
+                <div class="padding-p hov">Nuova playlist</div>
                 
             </ul>
 
@@ -53,7 +48,7 @@
                 <img class="profilo" src="img/profile.svg" alt="">
                 <span> Jonh Do</span>
             </div>
-            <div class="prova">
+            <div class="prova bordo hov">
                 <img class="download" src="img/download.svg" alt="">
                 <span>Installa app</span>
             </div>
@@ -73,12 +68,12 @@
         <!-- finne upgrade -->
         <!-- navigazione -->
         <nav>
-            <div>IN EVIDENZA</div>
-            <div>PODCAST</div>
-            <div>CLASSIFICHE</div>
-            <div>GENERI MOOD</div>
-            <div>NUOVE USCITE</div>
-            <div>SCOPRI</div>
+            <div class="hov">IN EVIDENZA</div>
+            <div class="hov">PODCAST</div>
+            <div class="hov">CLASSIFICHE</div>
+            <div class="hov">GENERI MOOD</div>
+            <div class="hov">NUOVE USCITE</div>
+            <div class="hov">SCOPRI</div>
         </nav>
         <!-- fine navigazione -->
         <!-- ascoltati recentemente -->
@@ -88,33 +83,34 @@
             </h2>
             <div class="album">
                 <div class="copertina">
+                    <div class="velo"> <i class="far fa-play-circle f3 play"></i></div>
                     <img class="copertina-resize" src="img/metal_lifting.jpg" alt="">
-                    <h3>Heavy metal</h3>
+                    <h4>Heavy metal</h4>
                     <h5>Subtile</h5>
                 </div>
                 <div class="copertina">
                     <img class="copertina-resize" src="img/stranger.jpeg" alt="">
-                    <h3>Heavy metal</h3>
+                    <h4>Heavy metal</h4>
                     <h5>Subtile</h5>
                 </div>
                 <div class="copertina">
                     <img class="copertina-resize" src="img/aquietplace.jpeg" alt="">
-                    <h3>Heavy metal</h3>
+                    <h4>A quiet place</h4>
                     <h5>Subtile</h5>
                 </div>
                 <div class="copertina">
                     <img class="copertina-resize" src="img/split.jpeg" alt="">
-                    <h3>Heavy metal</h3>
+                    <h4>Split</h4>
                     <h5>Subtile</h5>
                 </div>
                 <div class="copertina">
                     <img class="copertina-resize" src="img/cure.jpeg" alt="">
-                    <h3>Heavy metal</h3>
+                    <h4>Heavy metal</h4>
                     <h5>Subtile</h5>
                 </div>
                 <div class="copertina">
                     <img class="copertina-resize" src="img/sinister.jpeg" alt="">
-                    <h3>Heavy metal</h3>
+                    <h4>Sinister</h4>
                     <h5>Subtile</h5>
                 </div>
             </div>
@@ -127,13 +123,13 @@
                 Più ascolti, meglio saranno i tuoi suggerimenti
             </p>
             <div class="album2">
-                <div class="copertina">
+                <div class="copertina margine-10">
                     <img class="copertina-resize" src="img/radar.jpeg" alt="">
-                <h3>Relese Radar</h3>
+                <h4>Relese Radar</h4>
                 </div>
                 <div class="copertina">
                     <img class="copertina-resize" src="img/mixdaily.jpeg" alt="">
-                <h3>Relese Radar</h3>
+                <h4>Daily mix</h4>
                 </div>
             </div>
         </div>
@@ -145,13 +141,13 @@
                 Più ascolti, meglio saranno i tuoi suggerimenti
             </p>
             <div class="album2">
-                <div class="copertina">
+                <div class="copertina margine-10">
                     <img class="copertina-resize cerchio" src="img/youg.jpeg" alt="">
-                <h3>Relese Radar</h3>
+                <h4>Relese Radar</h4>
                 </div>
                 <div class="copertina">
                     <img class="copertina-resize cerchio" src="img/einaudi.jpeg" alt="">
-                <h3>Relese Radar</h3>
+                <h4>Relese Radar</h4>
                 </div>
             </div>
 
@@ -167,15 +163,15 @@
         <div class="footer-l">
             <img  id="sinister" src="img/sinister.jpeg" alt="sinister">
             <div class="canzone-riproduzione"> <strong>sinister</strong></br> brano nome</div>
-            <i class="far fa-heart"></i>
-            <i class="far fa-folder"></i>
+            <i class="far fa-heart grigio hov"></i>
+            <i class="far fa-folder grigio hov"></i>
 
         </div>
         <div class="footer-c">
             <div class="footer-upper">
                 <i class="fas fa-redo-alt f1"></i>
                 <i class="fas fa-caret-left f2"></i>
-                <i class="far fa-play-circle f3"></i>
+                <div class="scat"><i class="far fa-play-circle f3 big"></i></div>
                 <i class="fas fa-caret-right f2"></i>
                 <i class="fas fa-redo-alt f1"></i>
             </div>
