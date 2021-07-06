@@ -21,7 +21,7 @@ a{
     color: rgb(94, 94, 94);
     float: left;
     flex-wrap: wrap;
-    background-color: aqua;
+    background-color: black;
     height: calc(100vh - 80px);
     width: 200px;
 }
@@ -319,9 +319,9 @@ h4, h2{
 .hov:hover{
     color: white;
 }
-.big:hover{
+.big:hover {
     transform: scale(1.2);
-    color: tomato;
+    
 }
 
 .velo{
@@ -374,6 +374,7 @@ h4, h2{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    margin: 8px;
 }
 .bottom-600px{
     display: none;
